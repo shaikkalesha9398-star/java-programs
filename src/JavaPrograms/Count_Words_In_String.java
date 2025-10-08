@@ -17,13 +17,13 @@ public class Count_Words_In_String
         int wordCount = words.length;
 
         // Print the total number of words to the console (printed using System.err for highlighting)
-        System.err.println("Number of words in the string: " + wordCount);	        
+        //System.err.println("Number of words in the string: " + wordCount);	        
 
         // Use a for-each loop to iterate through each word in the array
         for (String word : words) 
         {
             // Print each word in the string
-            System.out.println(word);
+           // System.out.println(word);
         }
     }
 }
